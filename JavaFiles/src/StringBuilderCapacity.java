@@ -7,7 +7,7 @@ public class StringBuilderCapacity {
 		sb.append("Arnab Sen");
 		System.out.println(sb.capacity());
 		System.out.println(sb);
-		sb.append(" : =This is the Java Streee");
+		sb.append(" : =This is the Java String");
 		int sb2 = sb.capacity();
 		System.out.println(sb.capacity()); //new capacity = old capacity*2 + 2
 		System.out.println(sb);
